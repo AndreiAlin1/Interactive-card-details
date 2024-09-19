@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.left-container {
+    width: 30%;
+    background-image: url('../images/bg-main-desktop.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.right-container {
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 180px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+    display: initial;
+}
+
+.input-holder,
+.mm-yy-input,
+.mm-yy-input2 {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+.input-holder:hover {
+    border: 2px solid hsl(249, 99%, 64%);
+}
+
+.mm-yy-input,
+.mm-yy-input2 {
+    width: 50px;
+}
+
+.mm-yy-input2 {
+    margin-left: 5px;
+}
+
+.info-text {
+    margin-top: 25px;
+}
+
+.CVC {
+    margin-top: -39px;
+    margin-left: 181px;
+}
+
+.CVC-input {
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid gray;
+    outline: none;
+    margin-left: 20px;
+}
+
+.Confirm-Button {
+    color: white;
+    width: 327px;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(278, 68%, 11%);
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmation-message {
+    display: none;
+}
+
+.card-front {
+    margin-top: 150px;
+    margin-left: 150px;
+    display: block;
+}
+
+.card-back {
+    margin-top: 30px;
+    margin-left: 270px;
+}
+
+.card-front-container {
+    position: relative;
+}
+
+.card-front-text {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: white;
+    font-size: 30px;
+    letter-spacing:1px;
+    white-space: nowrap;
+}
+
+.card-name-text{
+    position:absolute;
+    top:75%;
+    left:38%;
+    color:white;
+    font-size:15px;
+}
+
+.card-expiration-text{
+    position:absolute;
+    top:75%;
+    right:-10%;
+    color:white;
+    font-size:15px;
+}
+
