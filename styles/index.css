@@ -29,7 +29,7 @@ body {
 .mm-yy-input,
 .mm-yy-input2 {
     padding: 10px;
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
     font-size: 18px;
     border: 2px solid gray;
@@ -42,7 +42,7 @@ body {
 
 .mm-yy-input,
 .mm-yy-input2 {
-    width: 50px;
+    width: 70px;
 }
 
 .mm-yy-input2 {
@@ -55,12 +55,12 @@ body {
 
 .CVC {
     margin-top: -39px;
-    margin-left: 181px;
+    margin-left: 220px;
 }
 
 .CVC-input {
     padding: 10px;
-    width: 120px;
+    width: 180px;
     border-radius: 5px;
     font-size: 18px;
     border: 2px solid gray;
@@ -126,3 +126,10 @@ body {
     font-size:15px;
 }
 
+.card-cvv-text{
+    position: absolute;
+    top: 61%;
+    left: 36%;   
+    color: white;
+    font-size:23px;
+}

@@ -19,42 +19,39 @@
   <div class="left-container">
     <div class="card-front-container">
       <img src="images/bg-card-front.png" class="card-front">
-      <p class="card-front-text">9591 6489 6389 1013</p>
-      <p class="card-name-text">Felicia Leire</p>
-      <p class="card-expiration-text">09/00</p>
+      <p class="card-front-text js-card-front-text">9591 6489 6389 1013</p>
+      <p class="card-name-text js-card-name-text">Felicia Leire</p>
+      <p class="card-expiration-text js-card-expiration-text">09/15</p>
     </div>
-    <img src="images/bg-card-back.png" class="card-back">
+    <div class="card-back-container">
+      <img src="images/bg-card-back.png" class="card-back">
+      <p class="card-cvv-text js-card-cvv-text">000</p>
+    </div>
   </div>
 
-    <div class="right-container js-right-container">
-      0000 0000 0000 0000
-      Jane Appleseed
-      00/00
+  <div class="right-container js-right-container">
+    <p class="info-text">CARDHOLDER NAME</p>
+    <input type="text" class="input-holder js-input-holder" placeholder="e.g. Jane Appleseed">
 
-      000
+    <p class="info-text">CARD NUMBER</p>
+    <input type="text" class="input-holder js-input-card" placeholder="e.g. 1234 5678 9123 0000">
 
-      <p class="info-text">CARDHOLDER NAME</p>
-      <input type="text" class="input-holder" placeholder="e.g. Jane Appleseed">
+    <p class="info-text">Exp. Date (MM/YY)</p>
+    <p class="CVC">CVC</p>
+    <input type="number" class="mm-yy-input" placeholder="MM">
+    <input type="number" class="mm-yy-input2" placeholder="YY">
+    <input type="number" class="CVC-input js-CVC-input" placeholder=" e.g. 123">
+    <br>
+    <button class="Confirm-Button" onclick="toggleConfirmationMessage()">Confirm</button>
 
-      <p class="info-text">CARD NUMBER</p>
-      <input type="text" class="input-holder" placeholder="e.g. 1234 5678 9123 0000">
-
-      <p class="info-text">Exp. Date (MM/YY)</p>
-      <p class="CVC">CVC</p>
-      <input type="number" class="mm-yy-input" placeholder="MM">
-      <input type="number" class="mm-yy-input2" placeholder="YY">
-      <input type="number" class="CVC-input" placeholder=" e.g. 123">
-      <br>
-      <button class="Confirm-Button" onclick="toggleConfirmationMessage()">Confirm</button>
-
-      <div class="confirmation-message js-confirmation-message">
-        Thank you!
-        We've added your card details
-        Continue
-      </div>
+    <div class="confirmation-message js-confirmation-message">
+      Thank you!
+      We've added your card details
+      Continue
     </div>
+  </div>
 
-    <script src="scripts/index.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>
