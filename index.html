@@ -38,17 +38,20 @@
 
     <p class="info-text">Exp. Date (MM/YY)</p>
     <p class="CVC">CVC</p>
-    <input type="number" class="mm-yy-input" placeholder="MM">
-    <input type="number" class="mm-yy-input2" placeholder="YY">
-    <input type="number" class="CVC-input js-CVC-input" placeholder=" e.g. 123">
+    <input type="text" class="mm-yy-input js-mm-yy-input" placeholder="MM" maxlength="2">
+    <input type="text" class="mm-yy-input2 js-mm-yy-input2" placeholder="YY" maxlength="2">
+    <input type="text" class="CVC-input js-CVC-input" placeholder=" e.g. 123" maxlength="3">
     <br>
     <button class="Confirm-Button" onclick="toggleConfirmationMessage()">Confirm</button>
+  </div>
 
-    <div class="confirmation-message js-confirmation-message">
-      Thank you!
-      We've added your card details
-      Continue
-    </div>
+  <div class="confirmation-message js-confirmation-message">
+    <img src = "images/icon-complete.svg" alt="Complete Image"/>
+    <p class="thank-you-text">THANK YOU! 
+    <p class="added-to-card">We've added your card details</p>
+    <p>
+      <button class="Confirm-Button js-Confirm-Button">Continue</button>
+    </p>
   </div>
 
   <script src="scripts/index.js"></script>

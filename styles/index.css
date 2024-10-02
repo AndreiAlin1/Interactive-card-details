@@ -70,7 +70,7 @@ body {
 
 .Confirm-Button {
     color: white;
-    width: 327px;
+    width: 424px;
     text-align: center;
     align-items: center;
     background-color: hsl(278, 68%, 11%);
@@ -83,6 +83,12 @@ body {
 
 .confirmation-message {
     display: none;
+    color: black;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    text-align: center;
 }
 
 .card-front {
@@ -103,33 +109,51 @@ body {
 .card-front-text {
     position: absolute;
     top: 40%;
-    left: 38%;
+    left: 30%;
     color: white;
     font-size: 30px;
-    letter-spacing:1px;
+    letter-spacing: 1px;
     white-space: nowrap;
 }
 
-.card-name-text{
-    position:absolute;
-    top:75%;
-    left:38%;
-    color:white;
-    font-size:15px;
-}
-
-.card-expiration-text{
-    position:absolute;
-    top:75%;
-    right:-10%;
-    color:white;
-    font-size:15px;
-}
-
-.card-cvv-text{
+.card-name-text {
     position: absolute;
-    top: 61%;
-    left: 36%;   
+    top: 75%;
+    left: 30%;
     color: white;
-    font-size:23px;
+    font-size: 15px;
+}
+
+.card-expiration-text {
+    position: absolute;
+    top: 75%;
+    right: 12%;
+    color: white;
+    font-size: 15px;
+}
+
+.card-cvv-text {
+    position: absolute;
+    top: 42.7%;
+    left: 29%;
+    color: #ffff;
+    font-size: 19px;
+}
+
+.thank-you-text {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.added-to-card {
+    margin-top: -10px;
+    font-weight: 100;
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.js-Confirm-Button {
+    width: 450px;
+    height: 50px;
 }
