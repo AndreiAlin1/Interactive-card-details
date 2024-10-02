@@ -89,4 +89,3 @@ function verifyMonth() {
     }
     return false;
 }
-
