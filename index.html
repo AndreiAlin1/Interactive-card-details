@@ -34,12 +34,14 @@
     <input type="text" class="input-holder js-input-holder" placeholder="e.g. Jane Appleseed">
 
     <p class="info-text">CARD NUMBER</p>
-    <input type="text" class="input-holder js-input-card" placeholder="e.g. 1234 5678 9123 0000">
+    <input type="text" class="input-holder js-input-card" placeholder="e.g. 1234 5678 9123 0000" maxlength="19" oninput="formatCardNumber(this)" oninput="verifyNumber(this)">
 
     <p class="info-text">Exp. Date (MM/YY)</p>
     <p class="CVC">CVC</p>
-    <input type="text" class="mm-yy-input js-mm-yy-input" placeholder="MM" maxlength="2">
-    <input type="text" class="mm-yy-input2 js-mm-yy-input2" placeholder="YY" maxlength="2">
+    <p class="error-message-month js-error-message-month">Invalid Month</p>
+    <input type="text" class="mm-yy-input js-mm-yy-input" placeholder="MM" maxlength="2" oninput="verifyMonth()">
+    <p class="error-message js-error-message">Invalid Year</p>
+    <input type="text" class="mm-yy-input2 js-mm-yy-input2" placeholder="YY" maxlength="2" oninput="verifyYear()">
     <input type="text" class="CVC-input js-CVC-input" placeholder=" e.g. 123" maxlength="3">
     <br>
     <button class="Confirm-Button" onclick="toggleConfirmationMessage()">Confirm</button>
