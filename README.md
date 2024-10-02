@@ -22,7 +22,7 @@ This project is fully functional, and feedback for enhancements is always apprec
 
 Here’s how the **Interactive Card Details** app looks in action:
 
-![image](![alt text](image.png))
+![alt text](image.png)
 
 *Screenshot description: A visually appealing interactive card interface where users can input card details, and see real-time updates on the card display.*
 
