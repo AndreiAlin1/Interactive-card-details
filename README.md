@@ -24,8 +24,6 @@ Here’s how the **Interactive Card Details** app looks in action:
 
 ![alt text](image.png)
 
-*Screenshot description: A visually appealing interactive card interface where users can input card details, and see real-time updates on the card display.*
-
 ## Technologies Used
 
 This app is built using the following technologies:
